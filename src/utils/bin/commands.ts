@@ -64,10 +64,10 @@ export const github = async (args: string[]): Promise<string> => {
   return 'Opening github...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+export const linktree = async (args: string[]): Promise<string> => {
+  window.open(`https://linktr.ee/${config.social.linkedin}`);
 
-  return 'Opening linkedin...';
+  return 'Opening linktree...';
 };
 
 // Search
