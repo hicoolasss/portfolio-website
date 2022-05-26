@@ -54,8 +54,8 @@ Monobank: 4441114464109725;
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
-  window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
+  window.open(`https://mail.google.com/mail/u/0/#inbox`);
+  return `Opening gmail:${config.email}...`;
 };
 
 export const github = async (args: string[]): Promise<string> => {
