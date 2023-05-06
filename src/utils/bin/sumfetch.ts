@@ -18,7 +18,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
     ────██▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▓▓█        -----------
     ─────██▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓▓▓▓▓▓▓█         DONATE
     ──────█████▒▒▒▒▒▒▒▒▒▒██████████         $ <u><a href="${config.donate_urls.mono}" target="_blank">${config.donate_urls.mono}</a></u>
-    ─────────▀███████████▀                  $ <u><a href="${config.donate_urls.patreon}" target="_blank">${config.donate_urls.patreon}</a></u>
+    ─────────▀███████████▀                  $ <u><a href="${config.donate_urls.privat}" target="_blank">${config.donate_urls.privat}</a></u>
 
 `;
   } else {
@@ -37,7 +37,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           -----------
       ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀             DONATE 
         ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀                <u><a href="${config.donate_urls.mono}" target="_blank">${config.donate_urls.mono}</a></u>
-            ▀▓▓▓▓▓▓▓▓▓▓▓▀▀                   <u><a href="${config.donate_urls.patreon}" target="_blank">${config.donate_urls.patreon}</a></u>
+            ▀▓▓▓▓▓▓▓▓▓▓▓▀▀                   <u><a href="${config.donate_urls.privat}" target="_blank">${config.donate_urls.privat}</a></u>
 
 `;
   }
