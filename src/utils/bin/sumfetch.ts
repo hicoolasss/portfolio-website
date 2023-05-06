@@ -17,7 +17,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
     ─▀███████████▒▒▒▒█▓▓▓███████████▀        <u><a href="https://linktr.ee/${config.social.linkedin}" target="_blank">${config.social.linkedin}</a></u>
     ────██▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▓▓█        -----------
     ─────██▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓▓▓▓▓▓▓█         DONATE
-    ──────█████▒▒▒▒▒▒▒▒▒▒██████████         $ <u><a href="${config.donate_urls.mono}" target="_blank">${config.donate_urls.mono}</a></u>
+    ──────█████▒▒▒▒▒▒▒▒▒▒██████████         $ <u><a href="${config.donate_urls.mono}" target="_blank">Monobank</a></u>
     ─────────▀███████████▀                  $ <u><a href="${config.donate_urls.privat}" target="_blank">PrivatBank</a></u>
 
 `;
